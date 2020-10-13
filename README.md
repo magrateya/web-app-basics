@@ -1,5 +1,7 @@
 # web-app-basics
 
+https://www.youtube.com/watch?v=p4XGoF0sFJM&feature=youtu.be - інструкція)
+
 https://www.youtube.com/watch?v=b1ZnAmIXXAQ&feature=youtu.be
 https://medium.com/@waelyasmina/a-guide-into-using-handlebars-with-your-express-js-application-22b944443b65
 https://expressjs.com/
