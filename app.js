@@ -2,6 +2,8 @@ const express = require('express');
 const exhbs = require('express-handlebars');
 const products = require('./products.json');
 
+const PORT = process.env.PORT || 4444;
+
 const app = express();
 
 // реєстрація прослойки
@@ -30,6 +32,6 @@ app.get('/product/:productId', (req, res) => {
     res.render('product', {product})
 })
 
-app.listen(4444, () => {
+app.listen(PORT, () => {
     console.log(`appserver is running on port ${4444}`);
 });
